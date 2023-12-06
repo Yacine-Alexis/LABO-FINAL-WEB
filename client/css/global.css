@@ -1,0 +1,131 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height: 100%;
+    background-color: #d9d6d1;
+    background-image: url(../img/chessbg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    color: #614b3f;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-container{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem;
+}
+.title{
+    border-radius: 1rem;
+    text-shadow: 2px 2px 4px #b28f7b;
+    font-size: 30px;
+}
+.menu{
+    background-color: #b6a7a0;
+    text-align: center;
+    position: relative;
+    padding: 20px auto;
+    border: 3px solid #b28f7b;
+    width: 400px;
+    height: 450px;
+    overflow: hidden;
+
+    border-radius: 1rem;
+    margin: 20px;
+    max-width: 100%;
+}
+.text{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}   
+
+input{
+    background-color: black;
+    padding: 0.4rem;
+    color: #b28f7b;
+    margin:8px;
+    height: 1.1rem;
+}
+::placeholder{
+    color:#b28f7b;
+    background-color: black;
+}
+button{
+    background-color: black;
+    border-radius: 100px;
+    color: #b28f7b;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px;
+    padding: 7px 20px;
+    border: 0;
+}
+a{
+    color:#b28f7b;
+    text-decoration: none;
+}
+
+.piece{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+}
+.roiBlanc{
+    background-image: url('../img/roiblanc.png');
+    background-size:cover;
+}
+.roiNoir{
+    background-image: url('../img/roiNoir.png');
+    background-size:cover;
+}
+.reineblanc{
+    background-image: url('../img/reineBlanc.png');
+    background-size:cover;
+}
+.reineNoir{
+    background-image: url('../img/reineNoir.png');
+    background-size:cover;
+}
+.fouBlanc{
+    background-image: url('../img/foublanc.png');
+    background-size:cover;
+}
+.fouNoir{
+    background-image: url('../img/fouNoir.png');
+    background-size:cover;
+}
+.cavalierBlanc{
+    background-image: url('../img/cavalierBlanc.png');
+    background-size:cover;
+}
+.cavalierNoir {
+    background-image: url('../img/cavalierNoir.png');
+    background-size:cover;
+}
+.tourBlanc{
+    background-image: url('../img/tourBlanc.png');
+    background-size:cover;
+}
+.tourNoir{
+    background-image: url('../img/tourNoir.png');
+    background-size:cover;
+}
+.pionBlanc{
+    background-image: url('../img/pionBlanc.png');
+    background-size:cover;
+}
+.pionNoir{
+    background-image: url('../img/pionNoir.png');
+    background-size:cover;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat</title>
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/chat.css">
+        
+        <script src="dist/chat.js"></script>\
+        
+        <link rel="icon" href="img/favicon.png" type="image/png" />
+    </head>
+    <body>
+		<div id="vue-container"></div>
+        <div class="game">
+            <div class="container-chess-board">
+                <p>Joueur 1: </p>
+                <div id="board" class="chess-board"></div>
+                <p class="joueur2">Joueur 2: </p>
+            </div>
+            
+            <div class="chat-container">
+                <div class="chat" id="chat"></div>
+                <div class="textarea">
+                    <textarea cols="30" rows="1"></textarea>
+                    <a href="javascript:void(0)" id="sign-out-btn">Déconnexion</a>
+                </div>
+                
+            </div>
+            <div class="members-container"></div>
+        </div>
+    </body>
+</html>
