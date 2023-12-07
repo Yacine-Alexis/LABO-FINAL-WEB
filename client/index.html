@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil</title>
+        <script src="dist/index.js"></script>
+        <script src="../client/src/sprites/piece.js"></script>
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="icon" href="img/favicon.png" type="image/png" />
+    </head>
+    <body>  
+        <div class="main-container">
+            <div class="title" href="https://www.chess.com/">Chess.ca</div>
+            <div class="menu" id="menu">
+                <div class="text">
+                    <form action="" method="post" autocomplete="off">
+                        <div class="sign-in-input-group">
+                            <div id="api-message"></div>
+                            <p><img src="../client/img/username.png" alt="Username pick" width="20px" height="20px">
+                                <input id="input" type="text" name="username" placeholder="Username" required></p>
+                            <p><img src="../client/img/lock.jpg" alt="Username pick" width="20px" height="20px">
+                                <input id="input" type="password" name="password" placeholder="Password" required></p>
+                            
+                                <button>Log in</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="score" id="score">Score : 0</div>
+                <a href="register.html"><button>S'enregistrer</button></a>
+            </div>
+        </div> 
+        
+    </body>
+</html>
